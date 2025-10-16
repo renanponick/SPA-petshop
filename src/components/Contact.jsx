@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 
 export function Contact() {
   return (
-    <section id="contact" className="py-20 px-4 bg-muted/30">
+    <section id="contact" className="py-20 px-5 sm:px-6 lg:px-8 bg-muted/30">
       <div className="container mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -21,7 +21,7 @@ export function Contact() {
           </p>
         </motion.div>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-2 gap-12 overflow-hidden">
           {/* Contact Info */}
           <motion.div
             initial={{ opacity: 0, x: -50 }}

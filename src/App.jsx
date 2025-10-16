@@ -19,7 +19,7 @@ function App() {
       <CartProvider>
         <div className="min-h-screen smooth-scroll">
           <Navbar />
-          <main>
+          <main className='overflow-hidden'>
             <Hero />
             <Services />
             <Products />
